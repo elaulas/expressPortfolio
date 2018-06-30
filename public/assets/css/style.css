@@ -1,0 +1,92 @@
+/* Style the video: 100% width and height to cover the entire window */
+#myVideo {
+    position: fixed;
+    right: 0;
+    bottom: 0;
+    min-width: 100%; 
+    min-height: 100%;
+}
+
+
+
+/* Style the button used to pause/play the video */
+#myBtn {
+    width: 200px;
+    font-size: 18px;
+    padding: 10px;
+    border: 2px solid white;
+    background: #25293A;
+    color: #fff;
+    cursor: pointer;
+}
+
+#myBtn:hover {
+    background: #ddd;
+    color: black;
+}
+
+/* #navBar {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    text-align: center;
+    font-size: 17pt;
+    color: white;
+    background-color: rgb(37, 41, 58, .3); */
+/* } */
+
+.nav-link {
+    color: white;
+}
+
+.content {
+    background-color: rgb(37, 41, 58, .4);
+    border-radius: 10px;
+    text-align:center;
+    height: fit-content;/*height needs to be set*/
+    width: 550px;
+    margin: auto;
+    position: fixed;
+    top: 100px;
+    right: 0;
+    bottom: 0;
+    left: 0; 
+    padding: 15px;
+    color: white;
+    box-shadow: 5px 10px rgb(0, 0, 0, .1);
+}
+
+#myPic {
+    border-radius: 100%;
+    box-shadow: 5px 10px rgb(0, 0, 0, .1);
+}
+#contact{
+	background:#333333;
+	color:#f4f4f4;
+	padding-bottom:80px;
+}
+
+textarea.form-control{
+    height:100px;
+}
+
+form {
+    background-color: rgb(37, 41, 58);
+    border-radius: 10px;
+    text-align:center;
+    height: fit-content;/*height needs to be set*/
+    width: 550px;
+    margin: auto;
+    /* position: fixed; */
+    /* top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0; */
+    padding: 15px;
+    color: white;
+    box-shadow: 5px 10px rgb(0, 0, 0, .1);
+}
+  
+.card {
+    margin: auto;
+}
